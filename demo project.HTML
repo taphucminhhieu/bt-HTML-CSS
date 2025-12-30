@@ -118,7 +118,7 @@
 
         <h2>ĐĂNG KÝ KHOÁ HỌC NGAY HÔM NAY</h2>
         <form>
-        <table action="post" cellpadding="8" width="%60" >
+        <table action="post" cellpadding="8" cellspacing="0" width="60%" >
             <tr>
                 <td><label for="userName"><b>Họ và tên:</b></label></td>
                 <td><input name="userName" id="userName" size="40" type="text" /></td>
@@ -129,7 +129,7 @@
             </tr>
             <tr>
                 <td><b>Số điện thoại:</b></td>
-                <td><input type="tel" pattern="[0-9]{10}" name="sdt" id="sdt" size="40" placeholder="09xxxx123"></td>
+                <td><input type="tel" pattern="[0-9]{10}" name="sdt" id="sdt" size="40" ></td>
             </tr>
             <tr>
                 <td><b>Chọn khoá học tập</b></td>
@@ -153,10 +153,11 @@
                 <td><b>Yêu cầu thêm</b></td>
                 <td><textarea type="text" width="40" height="8" ></textarea></td>
             </table>
-            <tr colspan="2">
+            <tr>
             <button  type="submit">GỬI ĐĂNG KÝ KHOÁ HỌC </button>
             <button type="reset">Nhập lại</button>
-            </tr>
+            <br>
+            </tr>  
     </form>
     </tbody>
     <hr>
